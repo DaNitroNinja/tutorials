@@ -27,7 +27,7 @@ In part 1, you will set up Photon for Unity Development
    and add it to your assets.
 
 2. Open the package manager in the Unity Editor, then extract and import it.
-3. It will ask you for an App ID, which is what you will learn what to do in Part 2, DO NOT CLOSE THAT TAB.
+3. It will ask you for an App ID, which is what you will learn what to do in Part 2, You can open that tab by opening the Photon Wizard.
 
 ## Part 2 - Photon
 
@@ -73,7 +73,7 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
 
 ## Part 4 - Create And Join Rooms
 
-In this part, you will make create and join rooms with your game.
+In this part, you will be able to create and join rooms with your game.
 
 1. Create a new c# class called `CreateAndJoinRooms.cs` and attach it to an Empty gameObject called `CreateAndJoinRooms` in your main menu.
 2. Put in this code.
@@ -205,5 +205,5 @@ if (photonView.IsMine)
 * You have learnt how to sync characters across a server.
 
 <seealso>
-https://doc.photonengine.com/pun/current/getting-started/pun-intro
+[Photon PUN 2 Docs (Old)](https://doc.photonengine.com/pun/current/getting-started/pun-intro)
 </seealso>

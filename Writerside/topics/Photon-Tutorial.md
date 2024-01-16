@@ -1,6 +1,6 @@
 # Photon Tutorial
 
-Why use Multiplayer? Well to make your games fun of course! 
+Why use Multiplayer? Well to make your games fun of course!
 You need to make your players want to play and multiplayer
 is a way to do this.
 
@@ -34,7 +34,7 @@ In part 1, you will set up Photon for Unity Development
 This is the second part of the tutorial:
 
 1. Go to [Photon PUN 2](https://www.photonengine.com/pun)
-and create a Photon PUN 2 project. 
+   and create a Photon PUN 2 project.
 2. Copy the App ID and paste into your Unity Project that Photon created a popup for.
 
 ## Part 3 - Connect to your Photon PUN 2 Server
@@ -109,12 +109,12 @@ public TMP_InputField joinInput;
 ```
 3. This code uses Photon's inbuilt `MonobehaviourPunCallbacks` class to use their methods.
 4. Assign the createInput to a TextMeshPro InputField and the joinInput to another one.
-5. The createInput field will allow the Player to create a code that anyone can use to Join a lobby with. Same thing 
-with the join input.
+5. The createInput field will allow the Player to create a code that anyone can use to Join a lobby with. Same thing
+   with the join input.
 6. Change the name of the `GameTestScene` to whatever your Game Scene is.
 
 ## Part 5 - Instantiate the player's to the server scene.
-This part wil allow the player to connect to a room and appear in it. 
+This part wil allow the player to connect to a room and appear in it.
 
 1. In the `GameTestScene` ensure there are no Player gameObjects in there (make a prefab)
 2. Create an empty gameObject called `SpawnPlayers` with the following code.
@@ -149,7 +149,7 @@ public class SpawnPlayers : MonoBehaviourPunCallbacks
 4. In the inspector assign the playerPrefab and assign the bounds.
 5. This code can also be modified to work with items if wished.
 6. Add A `PhotonView` component to your player and any server connected item. Also, add a `PhotonTransformView` and a `PhotonRigidbodyView`
-if it has physics or moves.
+   if it has physics or moves.
 
 
 ## Part 6 - Fix The Bugs
@@ -182,7 +182,7 @@ public class IsThisMine : MonoBehaviour
 }
 ```
 2. It simply checks for whether your local computer actually owns the component it is trying to control.
-and if it does not, then it will set it to inactive locally.
+   and if it does not, then it will set it to inactive locally.
 
 ### More things to add.
 To all movement or related classes that need to be controlled locally, but have an effect on the server (like movement) add this simple if statement to fix it.
@@ -200,7 +200,7 @@ if (photonView.IsMine)
 
 ## What you've learned {id="what-learned"}
 
-* In this tutorial you have learnt how to setup Photon PUN 2. 
+* In this tutorial you have learnt how to setup Photon PUN 2.
 * You have learnt how to put multiplayer into your game
 * You have learnt how to sync characters across a server.
 

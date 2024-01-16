@@ -1,0 +1,3 @@
+# GCSE Python - Data Types
+
+Start typing here...

@@ -1,0 +1,3 @@
+# GCSE Python - Variables
+
+Start typing here...

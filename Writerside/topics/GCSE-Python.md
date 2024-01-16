@@ -44,34 +44,35 @@ Input and Output
 Selection
 : **The following are examples of Selection**
 : Selection: Change the "flow" of the program by making the code run a different branch 
-```  
+``` Python
 if x > 1:
     # run this line of code
 else:
     # run that line of code
 ```
+
 Iteration
 : **The following are examples of Iteration**
 : Iteration: Repeat some of the code in the program until a specific condition is met.
 : While loop:
-``` 
+``` Python
 x = 5
 while x != 1:
     print(x)
     x -= 1
-print ("The countdown is over!")
+print ("The countdown's over!")
 ```
-```
+``` Python
 OUTPUT: 
 5
 4
 3
 2
 1
-The countdown is over!
+The countdown's over!
 ```
 : For loop:
-```
+``` Python
 x = 5
 for i in range(0, x)
 print(x)
@@ -79,7 +80,7 @@ x -= 1
 print ("The countdown is over!")
 ```
 :
-```
+``` Python
 OUTPUT:
 5
 4

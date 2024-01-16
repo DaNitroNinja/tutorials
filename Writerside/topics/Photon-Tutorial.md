@@ -1,4 +1,4 @@
-# Photon Tutorial
+# Photon Tutorial - Multiplayer
 
 Why use Multiplayer? Well to make your games fun of course!
 You need to make your players want to play and multiplayer
@@ -42,7 +42,7 @@ In this part, you will connect to the server to be able to join and interact wit
 
 1. Create a new c# class called `ConnectToServer.cs` and in a new scene called `Initialising` (which should be at build index 0), create an empty gameObject called `ConnectToServer`
 2. Put in this code.
-```
+``` C#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -77,7 +77,7 @@ In this part, you will be able to create and join rooms with your game.
 
 1. Create a new c# class called `CreateAndJoinRooms.cs` and attach it to an Empty gameObject called `CreateAndJoinRooms` in your main menu.
 2. Put in this code.
-```
+``` C#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -118,7 +118,7 @@ This part wil allow the player to connect to a room and appear in it.
 
 1. In the `GameTestScene` ensure there are no Player gameObjects in there (make a prefab)
 2. Create an empty gameObject called `SpawnPlayers` with the following code.
-```
+``` C#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -155,7 +155,7 @@ public class SpawnPlayers : MonoBehaviourPunCallbacks
 ## Part 6 - Fix The Bugs
 If your game has multiple people with multiple cameras for each player then this part is essential.
 1. Create a c# class called `IsThisMine.cs` and put this simple code in it.
-```
+``` C#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -187,11 +187,11 @@ public class IsThisMine : MonoBehaviour
 ### More things to add.
 To all movement or related classes that need to be controlled locally, but have an effect on the server (like movement) add this simple if statement to fix it.
 1. Make sure that you have a reference to the `PhotonView` of your gameObject.
-```
+``` C#
 public PhotonView photonView;
 ```
 2. Then, add this code in methods (e.g moving)
-```
+``` C#
 if (photonView.IsMine) 
 {
    // Put the method in here like the actuall movement script.

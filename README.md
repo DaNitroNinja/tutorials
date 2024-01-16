@@ -73,7 +73,7 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
 
 ## Part 4 - Create And Join Rooms
 
-In this part, you will make create and join rooms with your game.
+In this part, you will be able to create and join rooms with your game.
 
 1. Create a new c# class called `CreateAndJoinRooms.cs` and attach it to an Empty gameObject called `CreateAndJoinRooms` in your main menu.
 2. Put in this code.
@@ -153,7 +153,7 @@ if it has physics or moves.
 
 
 ## Part 6 - Fix The Bugs
-If your game has multiple people with multiple cameras for each player then this part is essential.
+If your game has multiple people with multiple cameras in the scene at once then this part is essential.
 1. Create a c# class called `IsThisMine.cs` and put this simple code in it.
 ```
 using System.Collections;

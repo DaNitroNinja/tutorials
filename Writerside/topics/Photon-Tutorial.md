@@ -117,7 +117,8 @@ public TMP_InputField joinInput;
 This part wil allow the player to connect to a room and appear in it.
 
 1. In the `GameTestScene` ensure there are no Player gameObjects in there (make a prefab)
-2. Create an empty gameObject called `SpawnPlayers` with the following code.
+2. Make sure all of your prefabs are inside a folder called `Resources` as Photon only recognises it, if it is in a folder with that name.
+2. Create an empty gameObject called `SpawnPlayers` and attach the c# class called `SpawnPlayers.cs` with the following code.
 ``` C#
 using System.Collections;
 using System.Collections.Generic;

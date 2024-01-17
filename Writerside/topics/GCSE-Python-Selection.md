@@ -2,7 +2,7 @@
 
 ## Introduction - Making Decisions in Code
 
-* Selection, or conditional statements, allow your Python programs to make decisions and execute different code blocks based on specific conditions. This empowers you to create more dynamic and adaptable programs that can respond to various inputs and scenarios.
+* Selection, or conditional statements, allow your Python programs to make decisions and execute different code blocks based on specific conditions.
 
 Key Concepts:
 : `Boolean Expressions`: Expressions that evaluate to either True or False.

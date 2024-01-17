@@ -1,0 +1,48 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat"><html lang="en-US" data-colors-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex">  <meta name="built-on" content="2024-01-17T21:38:37.2330847"><meta name="build-number" content="${buildNumber}">       <title>Developing Algorithms Using Pseudocode | The Learning Zone</title><script id="virtual-toc-data" type="application/json">[{"id":"introduction","level":0,"title":"Introduction","anchor":"#introduction"},{"id":"basic-programming-constructs","level":0,"title":"Basic Programming Constructs","anchor":"#basic-programming-constructs"}]</script><script id="topic-shortcuts" type="application/json"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.6.6-b205/app.css" rel="stylesheet">   <link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><link rel="manifest" href="https://jetbrains.com/site.webmanifest"><link rel="mask-icon" href="https://jetbrains.com/safari-pinned-tab.svg" color="#000000"><meta name="msapplication-TileColor" content="#000000"/><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"/><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"/><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"/><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"/><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"/>  <meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Developing Algorithms Using Pseudocode | The Learning Zone"/><meta property="og:description" content=""/><meta property="og:image" content=""/><meta property="og:site_name" content="The Learning Zone Help"/><meta property="og:type" content="website"/><meta property="og:locale" content="en_US"/><meta property="og:url" content="developing-algorithms-using-pseudocode.html"/><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Developing Algorithms Using Pseudocode | The Learning Zone"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json"> { "@context": "http://schema.org", "@type": "WebPage", "@id": "developing-algorithms-using-pseudocode.html#webpage", "url": "developing-algorithms-using-pseudocode.html", "name": "Developing Algorithms Using Pseudocode | The Learning Zone", "description": "", "image": "", "inLanguage":"en-US" }</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json"> { "@type": "WebSite", "@id": "/#website", "url": "/", "name": "The Learning Zone Help" }</script><!-- End Schema.org --></head>      <body data-id="Developing-Algorithms-Using-Pseudocode" data-main-title="Developing Algorithms Using Pseudocode" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}"  data-template="article"  data-breadcrumbs="GCSE-Computing.md|GCSE Computing///GCSE-Computing-Algorithms.md|GCSE Computing - Algorithms"  >   <div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>The Learning Zone  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="Developing-Algorithms-Using-Pseudocode"   id="Developing-Algorithms-Using-Pseudocode.md">Developing Algorithms Using Pseudocode</h1>  <section class="chapter"><h2 id="introduction" data-toc="introduction"   >Introduction</h2><ul class="list _ul" id="616f3b7e_9177"><li class="list__item" id="616f3b7e_9178"><p>Pseudocode is used to write an algorithm as if it were an actual program as it uses similar rules.</p></li><li class="list__item" id="616f3b7e_9179"><p>You don't need to be too worried about the syntax or be precise about how the code will do something.</p></li><li class="list__item" id="616f3b7e_9180"><p>After all it is just a plan.</p></li></ul></section><section class="chapter"><h2 id="basic-programming-constructs" data-toc="basic-programming-constructs"   >Basic Programming Constructs</h2><dl id="616f3b7e_9181" data-style="title-top"><dt id="616f3b7e_9182" data-expandable="false">The 3 Constructs:</dt><dd><p id="616f3b7e_9184">Sequence</p><p id="616f3b7e_9185">Selection</p><p id="616f3b7e_9186">Iteration</p></dd></dl><section class="chapter"><h3 id="sequence" data-toc="sequence"   >Sequence</h3><p id="616f3b7e_9187">Sequence is simply writing a program in the order they need to happen.</p><div class="code-block" data-lang="python"         >
+price &larr; USERINPUT
+quantity &larr; USERINPUT
+total &larr; quantity * price
+OUTPUT &quot;The total price is &quot; + TO_STRING(total)
+</div><p id="616f3b7e_9189">The program above would work as it is in the right order, while the program below simply couldn't work as it gets the <code class="code" id="616f3b7e_9190">USERINPUT</code> after calculating with blank variables.</p><div class="code-block" data-lang="python"         >
+total &larr; quantity * price
+OUTPUT &quot;The total price is &quot; + TO_STRING(total)
+price &larr; USERINPUT
+quantity &larr; USERINPUT
+</div></section><section class="chapter"><h3 id="selection" data-toc="selection"   >Selection</h3><p id="616f3b7e_9192">This has already been covered in the python topic, so it will be brief.</p><div class="code-block" data-lang="python"         >
+IF x &lt;= 10 THEN
+    y &larr; y + 10
+ELSE IF x &lt;= 20 THEN
+    y &larr; y + 20
+ELSE
+    OUTPUT &quot;Not a valid number.&quot;
+ENDIF 
+</div><ul class="list _ul" id="616f3b7e_9194"><li class="list__item" id="616f3b7e_9195"><p>The syntax is slightly different to Python, but if you know one of them, you will understand the other.</p></li></ul></section><section class="chapter"><h3 id="iteration" data-toc="iteration"   >Iteration</h3><p id="616f3b7e_9196">This has already been covered in the python topic, so it will be brief.</p><div class="code-block" data-lang="python"         >
+# While loop
+countdown &larr; 5
+WHILE countdown != 1
+    countdown &larr; countdown - 1
+    OUTPUT TO_STRING(countdown)
+OUTPUT &quot;Take off!&quot;
+
+#For loop
+countdown &larr; 5
+FOR i &larr; 0 TO countdown
+    countdown &larr; countdown - 1
+    OUTPUT TO_STRING(countdown)
+OUTPUT &quot;Take off!&quot;
+
+# Repeat until loop
+countdown &larr; 5
+REPEAT
+    countdown &larr; countdown - 1
+    OUTPUT TO_STRING(countdown)
+UNTIL countdown = 1
+OUTPUT &quot;Take off!
+</div><p id="616f3b7e_9198">They would all output:</p><div class="code-block" data-lang="python"         >
+5
+4
+3
+2
+1
+Take off!
+</div><ul class="list _ul" id="616f3b7e_9200"><li class="list__item" id="616f3b7e_9201"><p>The only new loop is the <code class="code" id="616f3b7e_9202">REPEAT UNTIL</code> loop, which the main difference is that it checks the condition after the code has run.</p></li></ul></section></section><div class="last-modified"> Last modified: 17 January 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom">  <a class="navigation-links__prev" href="developing-algorithms-using-flowcharts.html">Developing Algorithms Using Flowcharts</a>   <a class="navigation-links__next" href="searching-algorithms.html">Searching Algorithms</a>  </div></article><div id="disqus_thread"></div></div></section></main></div>  <script src="https://resources.jetbrains.com/writerside/apidoc/6.6.6-b205/app.js"></script></body></html>

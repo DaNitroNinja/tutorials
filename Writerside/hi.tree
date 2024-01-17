@@ -2,18 +2,27 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="hi" name="The Computing Guide"
+<instance-profile id="hi" name="The Learning Zone"
                  start-page="Home-Page.md">
 
     <toc-element topic="Home-Page.md"/>
-    <toc-element topic="GCSE-Python.md">
-        <toc-element topic="GCSE-Python-Data-Types.md"/>
-        <toc-element topic="GCSE-Python-Variables.md"/>
-        <toc-element topic="GCSE-Python-Operators.md"/>
-        <toc-element topic="GCSE-Python-Input-And-Output.md"/>
-        <toc-element topic="GCSE-Python-Selection.md"/>
-        <toc-element topic="GCSE-Python-Iteration.md"/>
-        <toc-element topic="GCSE-Python-Challenges.md"/>
+    <toc-element topic="GCSE-Computing.md">
+        <toc-element topic="GCSE-Computing-Algorithms.md">
+            <toc-element topic="GCSE-Computing-Algorithms-Decomposition-and-Abstraction.md"/>
+            <toc-element topic="Developing-Algorithms-Using-Flowcharts.md"/>
+            <toc-element topic="Developing-Algorithms-Using-Pseudocode.md"/>
+            <toc-element topic="Searching-Algorithms.md"/>
+            <toc-element topic="Sorting-Algorithms.md"/>
+        </toc-element>
+        <toc-element topic="GCSE-Python.md">
+            <toc-element topic="GCSE-Python-Data-Types.md"/>
+            <toc-element topic="GCSE-Python-Variables.md"/>
+            <toc-element topic="GCSE-Python-Operators.md"/>
+            <toc-element topic="GCSE-Python-Input-And-Output.md"/>
+            <toc-element topic="GCSE-Python-Selection.md"/>
+            <toc-element topic="GCSE-Python-Iteration.md"/>
+            <toc-element topic="GCSE-Python-Challenges.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="Unity-C.md">
         <toc-element topic="Photon-Tutorial.md"/>

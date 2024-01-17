@@ -1,11 +1,7 @@
-# GCSE Python
+# GCSE Computing - Python
 
-Overview articles give background information and provide context to a particular subject.
-Their goal is to explain a concept, not to teach or give instructions.
+Learning python is essential for your GCSE so here is everything you need to know about them.
 
-## GCSE Python AQA
-
-Provide some background and context, explain choices and alternatives.
 
 ## Glossary
 

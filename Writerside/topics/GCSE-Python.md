@@ -5,7 +5,7 @@ Their goal is to explain a concept, not to teach or give instructions.
 
 ## GCSE Python AQA
 
-Provide some background and context, explain choices and alternatives.
+AQA is the most popular exam board for computing and there are many resources available for it. Including this section.
 
 ## Glossary
 
